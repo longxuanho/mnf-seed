@@ -1,0 +1,16 @@
+{
+  "name": "db-converter",
+  "version": "0.0.1",
+  "description": "MNF v3 to v4 Converter",
+  "main": "dist/index.js",
+  "author": "Long Ho <longxuanho@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "seed:dev": "env-cmd knex seed:run --env development"
+  },
+  "dependencies": {
+    "knex": "^0.20.10",
+    "pg": "^7.18.2"
+  },
+  "devDependencies": {}
+}
