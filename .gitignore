@@ -20,7 +20,7 @@ node_modules/
 # Build files
 dist/
 json
-out/
+datasources/
 
 # Mac files
 .DS_Store
