@@ -1,6 +1,6 @@
-const data = require("../datasources/User.json");
+const data = require("../datasources/ProductCollection.json");
 
-const tblName = "User";
+const tblName = "ProductCollection";
 const { DB_SCHEMA } = process.env;
 
 exports.seed = async knex => {
