@@ -1,1 +1,1 @@
-env-cmd knex seed:run --env development
+yarn seed:dev
