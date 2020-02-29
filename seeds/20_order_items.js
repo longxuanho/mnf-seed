@@ -8,7 +8,7 @@ const { DB_SCHEMA } = process.env;
 const itemsPerChunk = 100;
 const chunks = chunk(data, itemsPerChunk);
 
-console.info("-- inserting", data.length, "of order items");
+console.info("-- inserting", data.length, "of order_items");
 
 exports.seed = async knex => {
   const knexWithSchema = knex.withSchema(DB_SCHEMA);
