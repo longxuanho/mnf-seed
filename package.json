@@ -6,7 +6,8 @@
   "author": "Long Ho <longxuanho@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "seed:dev": "env-cmd knex seed:run --env development"
+    "seed:dev": "env-cmd -f .env.local knex seed:run --env development",
+    "seed:production": "env-cmd -f .env.production knex seed:run --env development"
   },
   "dependencies": {
     "knex": "^0.20.10",
